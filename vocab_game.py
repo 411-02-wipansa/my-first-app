@@ -8,7 +8,7 @@ if "ans1_val" not in st.session_state:
     st.session_state.ans1_val = ""
 if "ans2_val" not in st.session_state:
     st.session_state.ans2_val = ""
-  if "ans3_val" not in st.session_state:
+if "ans3_val" not in st.session_state:
     st.session_state.ans3_val = ""
 if "ans4_val" not in st.session_state:
     st.session_state.ans4_val = ""
@@ -54,14 +54,14 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ตรวจข้อ 3
-  if u_ans3 == "backpack":
+    if u_ans3 == "backpack":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
     # ตรวจข้อ 3
-  if u_ans4 == "balloon":
+    if u_ans4 == "balloon":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
