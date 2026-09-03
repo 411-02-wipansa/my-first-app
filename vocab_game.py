@@ -102,11 +102,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3:She carries a small `_ _ckp_c_`to work. 🎒",
+    "ข้อ 3: She carries a small `_ _ckp_c_` to work. 🎒",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: The red `_al_ _on`floated into the sky. 🎈",
+    "ข้อ 4: The red `_al_ _on` floated into the sky. 🎈",
     value=st.session_state.ans4_val,
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
